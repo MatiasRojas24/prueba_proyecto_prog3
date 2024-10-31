@@ -1,0 +1,16 @@
+.error {
+    color: red;
+}
+.input-formulario{
+    display: flex!important;
+    align-items: center!important;
+    background-color: #006284!important;
+    border: none!important;;
+}
+.input-formulario::placeholder{
+    color: white!important;
+}
+.input-formulario:focus{
+    background-color: #006284!important;
+    border: none!important;
+}
