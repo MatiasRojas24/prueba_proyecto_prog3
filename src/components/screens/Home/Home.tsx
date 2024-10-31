@@ -7,7 +7,7 @@ import { setEmpresas } from '../../../redux/store/slices/EmpresaReducer';
 import { TarjetaEmpresa } from '../../ui/tarjetas/tarjetaEmpresa/TarjetaEmpresa';
 import { TarjetaSucursal } from '../../ui/tarjetas/tarjetaSucursal/TarjetaSucursal'
 import { IEmpresa } from '../../../types/dtos/empresa/IEmpresa';
-import { ModalCrearSucursal } from '../../ui/modals/modalsSucursal/modalVerSucursal/modalCrearSucursal/ModalCrearSucursal';
+import { ModalCrearSucursal } from '../../ui/modals/modalsSucursal/modalCrearSucursal/ModalCrearSucursal';
 
 export const Home = () => {
     // Estado de empresas

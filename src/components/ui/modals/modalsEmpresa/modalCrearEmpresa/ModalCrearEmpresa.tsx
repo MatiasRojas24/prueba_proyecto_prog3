@@ -90,7 +90,7 @@ export const ModalCrearEmpresa = ({
                         onSubmit={async (values: ICreateEmpresaDto) => {
                             // Enviar los datos al servidor al enviar el formulario
                             if (empresaActive) {
-                                await empresaService.put(empresaActive.cuit, values);
+                                await empresaService.put(empresaActive.id, values);
                             } else {
                                 await empresaService.post(values);
                             }
